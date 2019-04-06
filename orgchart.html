@@ -42,7 +42,7 @@ label {
   <label><input type="radio" name="mode" value="tree"> Tree</label>
 </form>
 <svg id="tree" height="3200"></svg>
-<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="d3.v4.min.js"></script>
 <script>
 
 document.getElementById("tree").setAttribute("width", (window.innerWidth - 100).toString());
@@ -61,7 +61,7 @@ var cluster = d3.cluster()
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-d3.text("https://htmlpreview.github.io/?https://github.com/austinpetsalive/organizational-chart/blob/master/org.txt", function(error, data) {
+d3.text("org.txt", function(error, data) {
     // Custom parsing from google doc txt output of bulletted list
     parsed_data = data.replace(/\* /g, "");
     parsed_data = parsed_data.replace(/\./g, "");
