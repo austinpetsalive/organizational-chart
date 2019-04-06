@@ -4,3 +4,7 @@ This repository contains the organizational chart data and visualization for APA
 https://rawcdn.githack.com/austinpetsalive/organizational-chart/c9e2d1c6d455bd09e68c3f1c9944ce48e7730138/orgchart.html
 
 The data is seeded from org.txt which is an export of a Google Doc (containing a heirarchical bulleted list) as a TXT file. This document can be made available to appropriate parties for editing on request.
+
+The page (in Tree view) appears as follows:
+
+![Demo](https://github.com/austinpetsalive/organizational-chart/raw/master/demo.png)
