@@ -1,20 +1,274 @@
-﻿* Executive Director (Dr. Ellen Jefferson)
-   * AmPA! Coordinator (Victoria Brooks)
-   * Director of Finance (Sabrina Wells)
-      * HR Manager (Melinda Lauffer)
-      * Data Entry Team
-      * Office Coordinator (Colin Sheffield)
-      * Facilities Manager (Faith Wright)
-         * Receptionists
-         * Records
-         * Groundskeeper (Rodger Griffiths)
-         * Laundry Volunteer Lead (Elisa Quintana)
-         * Volunteer Lead (TBD)
-      * Cleaning Crew Team Member (Jill Lyons)
-      * Groundskeeper (Rodger Griffiths)
-      * Accounting Clerk (Nicole Wilson)
-      * Thrift Operations Manager (Oliver Jolis)
-      * Thrift Store Manager - Burnet (Seleine Rodriguez)
-      * Thrift Store Shift Lead (Crystal Bright)
-      * Thrift Store Shift Lead (Heather Lavis)
-      * Thrift Store Shift Lead (Jen Venzke)
+﻿* President and Capital Campaign Chair (Rusty Tally)
+   * Executive Director (Dr. Ellen Jefferson)
+      * AmPA! Coordinator (Victoria Brooks)
+      * Director of Finance (Sabrina Wells)
+         * Director of Finance (Sabrina Wells)
+         * HR Manager (Melinda Lauffer)
+         * Data Entry Team
+            * (Jessica Browder)
+            * (Kelli Steinhofer)
+            * (Alyson Wutke)
+         * Office Coordinator (Colin Sheffield)
+         * Facilities Manager (Michael Sony) (Faith Wright)
+            * Receptionists
+            * Records
+            * Laundry Volunteer Lead (Elisa Quintana)
+            * Volunteer Lead (TBD)
+            * Cleaning Crew Team Member (Jill Lyons)
+            * Groundskeeper (Rodger Griffiths)
+         * Accounting Clerk (Nicole Wilson)
+         * Thrift Operations Manager (Oliver Jolis)
+            * Thrift Store Manager - Burnet (Seleine Rodriguez)
+               * Thrift Store Shift Lead (Crystal Bright)
+               * Thrift Store Shift Lead (Heather Lavis)
+               * Thrift Store Shift Lead (Jen Venzke)
+      * Development Director (Maggie Lynch)
+         * Deputy Director of Development (Anne Helmick-Lyon)
+         * Development Assistant (Catherine Covington)
+         * Development Associate (Logan Anderson)
+         * Donor Relations Manager (Erin Osenbaugh)
+         * Grant Writer (Becky Abbott)
+         * Inventory Manager (Rene Backer)
+      * Director of Communications and Marketing (Mary Heerwald)
+         * Events and Outreach Manager (Hannah Horstman)
+            * Events and Cause Marketing Specialist (Colleen Ketchum)
+               * Event Lead
+               * Event Lead
+         * Marketing Manager (Lindsey Picard)
+            * Marketing Lead
+            * Marketing Lead
+            * Dog Marketing Manager
+               * Bio Coordinator
+                  * Bio Writers
+               * Photo Coordinator
+               * Video Coordinator
+                  * Videographers
+                  * Editors
+               * Spreadsheet Coordinator
+               * Craigslist Coordinator
+                  * Craigslist Posters
+         * Social Media Coordinator (Laura Furr)
+      * Director of Lifesaving Operations (Mike Kaviani)
+         * Assistant Director of Lifesaving Operations (Vacant) 
+            * Neonatal Program Director (Casandra Mensing) 
+               * Bottle Baby Program Manager (Gloria Hudson)
+                  * Neonatal Program Manager (Gloria Hudson)
+                  * Neonatal Program Assistant Manager (Josh Crow)
+                  * Med Techs
+                     * Paid Med Techs
+                     * Interns
+                  * Feeders
+                     * Paid Feeders
+                     * Volunteer Feeders
+                  * Panleuk Team
+                  * Training Team
+                  * Data Admin
+                     * Paid
+                     * Volunteer
+                  * Rescue/Transport
+                  * Volunteer Liaison Lead (Beckie Shafer)
+                  * Neonatal Foster Program Manager
+                     * Assistant Foster Manager (TBD)
+                     * Foster Mentors
+                     * Fosters
+                  * Volunteer Liaison Lead
+            * Cat Program Manager (Kristen Hansen)
+               * Cat Program Assistant Manager (Amanda Payne)
+               * Maddie’s Cat Program Assistant (Alice Russi)
+               * Cat Counselors
+               * Cat Offsite Counselors
+               * Ringworm Manager (Vacant)
+                  * Assistant Ringworm Manager
+                  * Fungus Fighters Lead
+                  * RW Cat Care Specialist
+               * Cat Care Specialist Lead (Neil Hay)
+                  * Cat Care Specialists
+               * Cat  Foster Manager (Ashley Middelton)
+                  * Cat Care Specialist
+                  * Cat Foster Assistant Manager (Amber Pena)
+                  * Cat Foster Screener Lead (Pat Karaguleff)
+                  * Cat Foster Adoption Advocate (Mollie Wicall)
+                  * Cat Foster Coordinator (Diane Vanlandingam)
+                  * Cat Foster Placement Coordinator (Tabitha Szarko)
+                  * Cat Foster Placement Coordinator (Kristen Eveleth)
+               * Cat Rescue Manager (Ashley Middleton)
+                  * Cat Assessment Team (Frances Flower)
+               * Cat Marketing Manager (Kristin Molanda)
+               * Cat Kennel Tech
+               * Cat Matchmaker Lead (Natascha Hamman)
+               * Cat Behavior Team Lead (Sarah Cookson)
+               * FeLV Program Research Studies
+                  * Study #1
+                  * Study #2
+            * Clinic Program Manager (Katie Pengra)
+               * Clinic Assistant Managers (Erin Littlefield and Randi Worth)
+                  * Lead Receptionist (Adriana Thompson)
+                     * Receptionist (Anna Hunter)
+                     * Receptionist (Andrea Laponte)
+                     * Receptionist (Ashley Melendez)
+                  * Lead Veterinary Technician
+                     * Vet Techs
+                        * Clinic Volunteers
+                        * Intake Volunteers
+                     * Vet Techs I
+                        * (Dimoria Thomas)
+                        * (Taryn Weiss)
+                        * (Lauren Heymann)
+                        * (Kat Boreani)
+                        * (Molly Anderson)
+                     * Vet Techs II
+                        * (Mansour Arbabsiar)
+                        * (Allyson Duden)
+                        * (Sarah Frengel)
+                        * (Margaret Hill)
+                        * (Elena Penedo)
+                        * (Cory Qualls)
+                  * Dog Intake Technician (Shelby Asquith)
+                  * Clinic Kennel Techs
+                     * (Mistie Lowe)
+                     * (Elisa Quintana)
+                  * Clinic Data Entry (Melissa Keys)
+               * Parvo ICU Manager
+                  * Parvo Assistant Manager
+                  * Parvo Volunteers
+            * Dog Program Manager (Anne Lafriniere)
+               * Dog Foster Program Manager (Danica Kubick)
+                  * Dog Foster Assistant Manager (Regan Goins)
+                  * Dog Foster Onboarding (DFO) Team
+                     * DFO Team Co-Leads (Katharine Jose & Ian Bingham)
+                        * DFO Team Coordinators
+                  * Dog Foster Placement (DFP) Team
+                     * DFP Team Lead (Jamison Cornett)
+                        * DFP Team Lead Assistant (Amanda Williams)
+                        * DFP Team Coordinators
+                        * Dog Foster Placement Rescue Lead (Laurel Moulton)
+                  * Dog Foster Care (DFC) Team
+                     * DFC Team Co-Leads (Pam Martin & Aria Aguilar)
+                        * DFC Team Coordinators
+                        * Dog Foster Outreach Coordinator (Lauren Hawley)
+                     * Dog Foster Medical Liason (Heather Leeger)
+                  * Dog Foster Adoption (DFA) Team
+                     * DFA Team Lead (Jennifer Steinfeld)
+                        * DFA Team Coordinators
+                  * Dog Foster Events (DFE) Team
+                     * DFE Team Co-Leads (Mary Maltbie & Lauren Pacek)
+                        * DFE Team Volunteers
+                  * Dog Foster Adoption Advocate (DFAA) (Claudia Alarcon)
+                     * DFAA Assistant (DFAAA) (Luise Irby)
+                  * Dog Foster Records Coordinator (Kay Dameron)
+               * Dog Intake Coordinator (Katie Mellon)
+               * Maddie’s Dog Program Assistant (Tiffany Belk)
+               * Dog Behavior Program Manager (Aaron Caldwell)
+                  * Adoption Follow-Up Coordinator (Amy Jones)
+                     * Dog Behavior Adoption Follow Up Trainer (Stephanie Nasr)
+                     * Dog Behavior Adoption Follow Up Trainer (Viridiana Cereceres)
+                     * Adoption Follow-Up Lead
+                  * CGC-Ready/TOP Dog Program Manager (Carrie Morris)
+                     * CGC-Ready/TOP Dog Trainer (Hana Garner)
+                     * CGC-Ready and TOP Dog Leads
+                  * Dog Behavior Trainers
+                     * (Jane Zamarron)
+                     * (Kathleen McGuire)
+                     * (Zanne Tarlow)
+                     * (Christopher Boerner)
+                     * (Angela Tomasino)
+                     * (Jordan Osher)
+                  * Canine Coach Lead
+                  * Dog Behavior Assistants
+                  * Dog Walking Mentor Leads
+               * Dog Care Manager (Karen Arana)
+                  * Dog Care Specialists
+                  * Dog Care Assistant Manager (Ariana Garza)
+                  * Cleaning Crew Manager (Randy Castelan)
+                     * Cleaning Crew Team
+                        * (James Choate)
+                        * (Andrew Creed)
+                        * (Juan Zamora)
+                  * Dog Walking Lead
+                  * Mutternity Lead
+                  * RTR Lead
+                  * Enrichment Coordinator
+                  * Cleaners
+                  * Kennel Tech
+                     * Kennel Tech Lead
+                  * Dog Walkers
+                     * (Cory Bacon)
+                     * (Tori Barton)
+                     * (Stacy Baldwin)
+                     * (Natalie Bonner)
+                     * (Melissa Espinoza)
+                     * (Lucio Hernandez)
+                     * (Tara Murtagh)
+                     * (Sheritta Nesbitt)
+                     * (Carin Peterson)
+                     * (Kelsey Price)
+                     * (Ashley Reed)
+                     * (Valeria Reyes)
+                  * Dog Adoption Counselors
+                     * (Analise Coffee)
+                     * (Andres Gomez)
+                     * (Persia Sarsangi)
+                     * (Ally Tio)
+                     * (Miranda Dupont)
+                     * (Jordan Joly)
+                     * (Hope Strasser)
+                     * (Claudia Echeverri)
+                     * (Jonathan Mejia)
+                     * (Zoe Trautz)
+                  * Off-site Dog Adoption Counselor (Lauren Yankovich)
+                  * On-Call Dog Adoption Counselors
+                     * (Fiona Cheung)
+                     * (Shelby Haverda)
+                  * Dog Adoption Processor
+                     * (Mary Lotus)
+                     * (Lorena Cordova)
+                  * Receptionists
+                     * (Lisa Gonzales)
+                     * (Amanda Polvado)
+               * Dog Walking Coordinator (Jenna Gallagher)
+               * Matchmaker Manager (Lara Cirkovic)
+                  * Matchmakers
+                     * (Ashley Nesseler)
+                     * (Persia)
+                  * Matchmaker Lead
+                  * Volunteer Lead
+               * Tarrytown Manager (Annie Hoelle)
+                  * Tarrytown Assistant Manager
+                  * TT Staff
+                  * TT Volunteers
+      * IT Director (Trish Badeen)
+         * (Aaron Soto)
+         * (Walter Moreira)
+         * (Steve Budnick)
+         * (Sara Lyons)
+      * Lead Veterinarian (Alexis Bardzinski)
+         * Imaging Volunteer (Robyn Roberts)
+         * Veterinarian (Dr. Anna Ramsey)
+         * Veterinarian (Dr. Sarah Hazell)
+         * Veterinarian (Dr. Savannah Beauregard)
+         * Veterinary Interns
+         * Veterinarian (Dr. Lara Kemerling)
+         * Volunteer Veterinarian (Dr. Matthew Slentz) 
+      * Maddie’s Director of Education (Jessica Powers)
+         * Data and Survey Lead (Velia Hernandez)
+         * Collateral Standardization Lead (Victoria Willens)
+      * Maddie’s Executive Assistant
+      * PASS Manager (Patty Alexander)
+      * Volunteer Program Manager (Monica Dangler)
+         * Assistant Volunteer Coordinator (Kristin Garabedian)
+         * Volunteer Activities Coordinator (Bree Barney)
+         * Email Correspondence Lead
+         * Volunteer Recognition Lead (Amber Krosel, Breanne Brock)
+         * Group Volunteer Liaison (Charlotte Coffman)
+         * Teen Foster Lead
+      * Volunteer Lead (TBD)
+      * Volunteer Lead (TBD)
+   * Secretary and Program Chair (Gerri Kappler)
+   * Development Chair (Bill Symon)
+   * Marketing Co-Chair (Gretchen Meyer)
+   * Marketing Co-Chair (Meredith Young)
+   * Events Chair (Laura Villagran Johnson)
+   * Member (Mike Rovner)
+   * Member (Alexander Devine)
+   * Member (Monica McDermott)
+   * Member (Kirsten Tollefson)
