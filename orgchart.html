@@ -61,7 +61,7 @@ var cluster = d3.cluster()
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-d3.text("http://127.0.0.1:8000/org.txt", function(error, data) {
+d3.text("https://htmlpreview.github.io/?https://github.com/austinpetsalive/organizational-chart/blob/master/org.txt", function(error, data) {
     // Custom parsing from google doc txt output of bulletted list
     parsed_data = data.replace(/\* /g, "");
     parsed_data = parsed_data.replace(/\./g, "");
