@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<title>Austin Pets Alive! Organizational Chart</title>
 <style>
 
 .node circle {
@@ -27,7 +29,7 @@
 
 form {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  position: absolute;
+  
   left: 10px;
   top: 10px;
 }
@@ -36,7 +38,22 @@ label {
   display: block;
 }
 
+.header{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.contentvisual{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
 </style>
+<h1 class="header">Austin Pets Alive! Organizational Chart</h1>
+<p class="contentvisual">You can press <font color="#DC5928">CTRL+F</font> to search for a position.</br>
+Volunteers are highlighted in green. Clicking any position shows the escalation chain above that position in blue.</br>
+If you need to get in touch with someone you can email <font color="#DC5928">FirstName.LastName@austinpetsalive.org</font> (filling in their first and last name).</br>
+You can also access the employee email directory <a href="https://app.betterimpact.com/Volunteer/Main/Contact">here</a>.</p>
+<hr>
 <form>
   <label><input type="radio" name="mode" value="cluster" checked> Dendrogram</label>
   <label><input type="radio" name="mode" value="tree"> Tree</label>
@@ -61,7 +78,9 @@ var cluster = d3.cluster()
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-d3.text("org.txt", function(error, data) {
+var dataFile = "https://docs.google.com/document/export?format=txt&id=1Vy8tmnRzrwxJkLLzrEoVcsEKRRvLdbF1GlalzASUnqw&token=AC4w5VioYRt7Mj30qWKpdKRRZMMruUa2Yw%3A1554601034917&ouid=103359710247376278500&includes_info_params=true";
+//dataFile = "org.txt";
+d3.text(dataFile, function(error, data) {
     // Custom parsing from google doc txt output of bulletted list
     parsed_data = data.replace(/\* /g, "");
     parsed_data = parsed_data.replace(/\./g, "");
@@ -117,9 +136,32 @@ d3.text("org.txt", function(error, data) {
   node.append("text")
       .attr("dy", 3)
       .attr("x", function(d) { return d.children ? -8 : 8; })
+      .attr("class", "nametext")
       .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
+      .on("click", function(d) {
+        d3.event.stopPropagation();
+        elements = d3.selectAll('.nametext')._groups[0];
+        for(var i = 0; i < elements.length; i++)
+          if (d.id.includes(elements[i].innerHTML))
+            d3.select(elements[i]).attr("fill", "#07AACB").style("font-size", "14px");
+          else
+            d3.select(elements[i]).attr("fill", "#D3D3D3").style("font-size", "10px");
+      })
       .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
-
+  var setDefaultColors = function(){
+    elements = d3.selectAll('.nametext')._groups[0];
+    console.log(elements);
+    for(var i = 0; i < elements.length; i++){
+        var color = "black";
+        if (elements[i].innerHTML.trim().endsWith('`'))
+          color = "green";
+        d3.select(elements[i]).attr("fill", color).style("font-size", "10px");
+    }
+  }
+  setDefaultColors();
+  d3.select("body").on("click",function(){
+    setDefaultColors();
+  });
   d3.selectAll("input")
       .on("change", changed);
 
