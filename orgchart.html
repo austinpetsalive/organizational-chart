@@ -129,8 +129,6 @@ doCORSRequest({method: "GET", url: dataFile, data: ""}, function(data) {
   data = chain_data;
   // End custom parser
 
-  if (error) throw error;
-
   var root = stratify(data)
       .sort(function(a, b) { return (a.height - b.height) || a.id.localeCompare(b.id); });
 
