@@ -79,9 +79,26 @@ var cluster = d3.cluster()
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-var dataFile = "https://docs.google.com/document/export?format=txt&id=1Vy8tmnRzrwxJkLLzrEoVcsEKRRvLdbF1GlalzASUnqw&token=AC4w5VioYRt7Mj30qWKpdKRRZMMruUa2Yw%3A1554601034917&ouid=103359710247376278500&includes_info_params=true";
+var dataFile = "http://cors.io/https://docs.google.com/document/export?format=txt&id=1Vy8tmnRzrwxJkLLzrEoVcsEKRRvLdbF1GlalzASUnqw&token=AC4w5VioYRt7Mj30qWKpdKRRZMMruUa2Yw%3A1554601034917&ouid=103359710247376278500&includes_info_params=true";
+var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+function doCORSRequest(options, printResult) {
+    var x = new XMLHttpRequest();
+    x.open(options.method, cors_api_url + options.url);
+    x.onload = x.onerror = function() {
+      printResult(
+        options.method + ' ' + options.url + '\n' +
+        x.status + ' ' + x.statusText + '\n\n' +
+        (x.responseText || '')
+      );
+    };
+    if (/^POST/i.test(options.method)) {
+      x.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    }
+    x.send(options.data);
+  }  
+  
 //dataFile = "org.txt";
-d3.text(dataFile, function(error, data) {
+doCORSRequest({method: "GET", url: dataFile, data: ""}, function(data) {
     // Custom parsing from google doc txt output of bulletted list
     parsed_data = data.replace(/\* /g, "");
     parsed_data = parsed_data.replace(/\./g, "");
