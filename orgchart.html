@@ -79,7 +79,7 @@ var cluster = d3.cluster()
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-var dataFile = "http://cors.io/https://docs.google.com/document/export?format=txt&id=1Vy8tmnRzrwxJkLLzrEoVcsEKRRvLdbF1GlalzASUnqw&token=AC4w5VioYRt7Mj30qWKpdKRRZMMruUa2Yw%3A1554601034917&ouid=103359710247376278500&includes_info_params=true";
+var dataFile = "https://docs.google.com/document/export?format=txt&id=1Vy8tmnRzrwxJkLLzrEoVcsEKRRvLdbF1GlalzASUnqw";
 var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
 function doCORSRequest(options, printResult) {
     var x = new XMLHttpRequest();
