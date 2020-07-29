@@ -100,7 +100,8 @@ function doCORSRequest(options, printResult) {
 //dataFile = "org.txt";
 doCORSRequest({method: "GET", url: dataFile, data: ""}, function(data) {
     // Custom parsing from google doc txt output of bulletted list
-    parsed_data = data.replace(/\* /g, "");
+    parsed_data = data.split('\n').slice(3).join('\n'); //Remove CORS header
+    parsed_data = parsed_data.replace(/\* /g, "");
     parsed_data = parsed_data.replace(/\./g, "");
     parsed_data = parsed_data.replace(/   /g, "\t");
     parsed_data = parsed_data.split('\n');
