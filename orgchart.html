@@ -85,8 +85,8 @@ var xhttp = new XMLHttpRequest();
     if (this.readyState == 4 && this.status == 200) {
       var data = this.responseText;
     // Custom parsing from google doc txt output of bulletted list
-    parsed_data = data.split('\n').slice(3).join('\n'); //Remove CORS header
-    parsed_data = parsed_data.replace(/\* /g, "");
+    // parsed_data = data.split('\n').slice(3).join('\n'); //Remove CORS header
+    parsed_data = data.replace(/\* /g, "");
     parsed_data = parsed_data.replace(/\./g, "");
     parsed_data = parsed_data.replace(/   /g, "\t");
     parsed_data = parsed_data.split('\n');
