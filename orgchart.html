@@ -80,25 +80,10 @@ var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
 var dataFile = "https://docs.google.com/document/export?format=txt&id=1Vy8tmnRzrwxJkLLzrEoVcsEKRRvLdbF1GlalzASUnqw";
-var cors_api_url = 'https://cors-proxy.htmldriven.com/?url=';
-function doCORSRequest(options, printResult) {
-    var x = new XMLHttpRequest();
-    x.open(options.method, cors_api_url + options.url);
-    x.onload = x.onerror = function() {
-      printResult(
-        options.method + ' ' + options.url + '\n' +
-        x.status + ' ' + x.statusText + '\n\n' +
-        (x.responseText || '')
-      );
-    };
-    if (/^POST/i.test(options.method)) {
-      x.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    }
-    x.send(options.data);
-  }  
-  
-//dataFile = "org.txt";
-doCORSRequest({method: "GET", url: dataFile, data: ""}, function(data) {
+var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var data = this.responseText;
     // Custom parsing from google doc txt output of bulletted list
     parsed_data = data.split('\n').slice(3).join('\n'); //Remove CORS header
     parsed_data = parsed_data.replace(/\* /g, "");
@@ -195,8 +180,10 @@ doCORSRequest({method: "GET", url: dataFile, data: ""}, function(data) {
     node.transition(t).attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
     link.transition(t).attr("d", diagonal);
   }
-});
-
+      }
+  };
+xhttp.open("GET", dataFile, true);
+xhttp.send();
 function diagonal(d) {
   return "M" + d.y + "," + d.x
       + "C" + (d.parent.y + 100) + "," + d.x
